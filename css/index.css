@@ -1,0 +1,107 @@
+.programa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 40rem;
+    height: 40rem;
+    border: 0.2rem solid var(--text-color);
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.programa_cj-titulo {
+    width: 80%;
+    height: 5rem;
+    border: 0.2rem solid var(--text-color);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cj-titulo_texto {
+    font-size: var(--text-size2);
+}
+
+.bt_container {
+    padding: 0rem 2.6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    width: 100%;
+}
+
+.bt_anterior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 40%;
+    height: 5rem;
+    border-radius: 0.5rem;
+    margin-top: 5rem;
+
+    border: 0.1rem solid var(--text-color);
+    background-color: var(--bt-color);
+    cursor: pointer;
+}
+
+.bt_anterior i {
+    color: #fff;
+    font-size: 3rem;
+}
+
+.siguiente {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 40%;
+    height: 5rem;
+    border-radius: 0.5rem;
+    margin-top: 5rem;
+
+    border: 0.1rem solid var(--text-color);
+    background-color: var(--bt-color);
+    cursor: pointer;
+}
+
+.siguiente i {
+    color: #fff;
+    font-size: 3rem;
+}
+
+.cambiar-color {
+    background-color: grey;
+}
+
+.form {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inp {
+    width: 50%;
+    height: 5rem;
+    border-radius: 0.8rem;
+    outline: none;
+    border: none;
+    margin-bottom: 5rem;
+    padding: 1rem;
+    background-color: rgb(209, 248, 209);
+}
+
+::placeholder {
+    text-align: center;
+}
